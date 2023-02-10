@@ -1,0 +1,7 @@
+{
+  "name": "MovieSelector",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

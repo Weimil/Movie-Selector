@@ -3,7 +3,7 @@
         <ion-buttons slot="start">
             <ion-back-button defaultHref="/movies"></ion-back-button>
         </ion-buttons>
-        <ion-title>{{ movie ? movie.title : '' }}</ion-title>
+        <!--        <ion-title>{{ movie ? movie.title : '' }}</ion-title>-->
     </ion-toolbar>
 </ion-header>
 
@@ -36,7 +36,7 @@
 </ion-content>
 
 <ion-footer>
-    <ion-button expand="full" (click)="openHomepage(movie ? movie.homepage : '')" *ngIf="movie ? movie.homepage : ''">
+    <ion-button (click)="openHomepage(movie ? movie.homepage : '')" *ngIf="movie ? movie.homepage : ''" expand="full">
         <ion-icon name="open-outline" slot="start"></ion-icon>
         Open Homepage
     </ion-button>

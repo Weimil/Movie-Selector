@@ -5,8 +5,7 @@ import {ApiResult, Movie} from "../../entities/models";
 
 @Component({
     selector: 'app-movies',
-    templateUrl: './movies.page.html',
-    styleUrls: ['./movies.page.scss'],
+    templateUrl: './movies.page.html'
 })
 export class MoviesPage implements OnInit {
     movies: Movie[] = [];

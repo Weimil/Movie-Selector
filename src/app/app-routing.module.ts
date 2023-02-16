@@ -18,7 +18,7 @@ const routes: Routes = [
             import('./pages/movie-details/movie-details.module').then(
                 (m) => m.MovieDetailsPageModule
             ),
-    },
+    }
 ];
 
 @NgModule({

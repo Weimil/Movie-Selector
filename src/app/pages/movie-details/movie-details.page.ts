@@ -6,8 +6,7 @@ import {MovieDetail} from "../../entities/models";
 
 @Component({
     selector: 'app-movie-details',
-    templateUrl: './movie-details.page.html',
-    styleUrls: ['./movie-details.page.scss'],
+    templateUrl: './movie-details.page.html'
 })
 export class MovieDetailsPage implements OnInit {
     movie: MovieDetail | undefined;
